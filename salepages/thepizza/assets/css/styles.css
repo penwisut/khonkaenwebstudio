@@ -954,7 +954,7 @@ img {
 
   .home__board {
     bottom: -1rem;
-    width: unset;
+    width: 100%;
   }
 
   .home__ingredient {
