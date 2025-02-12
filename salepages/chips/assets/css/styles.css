@@ -341,7 +341,7 @@ img {
 }
 
 /*================ FAVORITES ==============*/
-.favorite__container {
+.favorites__container {
   row-gap: 3rem;
   grid-template-columns: 100%;
   padding-bottom: 3rem;
@@ -778,6 +778,10 @@ img {
   .footer__copy {
     grid-column: 1;
   }
+}
+
+@media screen and (max-width: 540px) {
+  .favorite__container
 }
 
 /* For Medium Devices */
