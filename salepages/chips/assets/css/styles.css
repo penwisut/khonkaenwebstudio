@@ -790,7 +790,7 @@ img {
     justify-content: center;
   }
 
-  .favourites__swiper {
+  .favorites__swiper {
     max-width: 600px;
     overflow-x: clip;
     justify-self: center;
@@ -931,7 +931,7 @@ img {
     left: -18rem;
   }
 
-  .favourites__swiper {
+  .favorites__swiper {
     max-width: 1000px;
   }
 
