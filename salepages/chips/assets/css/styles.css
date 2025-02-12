@@ -780,10 +780,6 @@ img {
   }
 }
 
-@media screen and (max-width: 540px) {
-  .favorite__container
-}
-
 /* For Medium Devices */
 @media screen and (min-width: 540px) {
 
