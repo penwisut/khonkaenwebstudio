@@ -702,15 +702,9 @@ nav {
 }
 
 @media (width > 540px) {
-  .menu__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .service__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .footer__container {
+  .menu__grid,
+  .service__grid,
+  .footer__container{
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -785,8 +779,6 @@ nav {
 
   .header__container {
     padding-top: 2rem;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
   }
 
   .header__content {
@@ -806,26 +798,20 @@ nav {
     justify-content: flex-start;
   }
 
-  .menu__grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
+  .menu__grid,
   .service__grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .banner__container {
+  .header__container,
+  .banner__container,
+  .customer__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
 
   .banner__content {
     grid-area: 1/1/2/2;
-  }
-
-  .customer__container {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
   }
 
   .customer__card {
